@@ -1,0 +1,30 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form class="stepForm" action="">
+
+<h1>Register:</h1>
+
+<!-- One "tab" for each step in the form: -->
+<div class="tab">Participant :
+  <div class="step">
+    <input placeholder="Prénom" name="fisrtName[]">
+    <input placeholder="Nom" name="lastName[]">
+  </div>
+   <div class="step">
+    <button type="button" class="reload" name="reload">Ajouter un participant</button>
+  <Button type="button" class="nextTab" data-order="2">Continuer</Button>
+  </div>
+  
+</div>
+
+<div class="tab">Game :
+  <input placeholder="Nom de la partie" >
+  <input type="submit" value="Lancer la partie">
+</div>
+</form>
+</body>
