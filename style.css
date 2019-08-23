@@ -1,0 +1,16 @@
+
+.tab {
+  display: none;
+}
+
+.step{
+  display:none;
+}
+
+.actifTab{
+  display:block!important;
+}
+
+.actifStep{
+  display:block!important;
+}
